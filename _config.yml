@@ -1,0 +1,68 @@
+title: thejasmine
+logo:  # you can add own logo.
+description: Data visualization enthusiast. Experienced in operations, data analytics, and web development.
+baseurl: "/thejasminecode"
+url: ""
+
+
+# Author Settings
+author:
+  name: Jasmine Huang
+  image: '/assets/img/10.jpg'
+  job: Business Intelligence | Data Visualization
+  bio: Data visualization enthusiast. Experienced in operations, data analytics, and web development.
+  email: yutingh@uw.edu
+
+
+# Contact links
+contact:
+  - name: LinkedIn
+    link: https://www.linkedin.com/in/yuting-jasminehuang/
+  - name: GitHub
+    link: https://github.com/thejasmine
+  - name: Tableau
+    link: https://public.tableau.com/profile/thejasmine#!/
+  - name: Medium
+    link: https://thejasmine.medium.com/
+
+
+# Comment Section (Disqus)
+disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+
+
+# Google Analytics
+google-analytics: # add your identifier. For example UA-99631805-1.
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-sitemap
+  - jekyll/tagging
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  pretty
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor

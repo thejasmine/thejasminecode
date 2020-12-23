@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Web Projects
+title: Website Projects
 permalink: /webprojects/
 order: 3
 ---

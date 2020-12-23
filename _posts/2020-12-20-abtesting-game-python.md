@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "AB testing in game — analyze using Python"
+title:  "AB testing in game — analyzing using Python"
 date:   2020-12-20 15:05:55 +0300
 image:  '/assets/img/12.png'
 tags:   testing

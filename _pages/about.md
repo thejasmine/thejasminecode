@@ -19,7 +19,7 @@ My Skill Set
 
 Education
 * **University of Washington** <span class="underline--magical">Master in Information Systems</span> - Data Mining, Database Modeling, Cyber Security
-* **New York University** <span class="underline--magical">Master student in Technology Managment</span> -  Data Visualization, Business strategy
+* **New York University** <span class="underline--magical">Master student in Technology Management</span> -  Data Visualization, Business Strategy
 * **National Taipei Unviersity** <span class="underline--magical">Bachelor in Public Administration</span> -  Social Science Research
 
 ***

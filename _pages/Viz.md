@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data visualization
+title: Data Visualization
 permalink: /viz/
 order: 1
 ---

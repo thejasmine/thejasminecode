@@ -47,11 +47,16 @@
 }
 
 .viz_img:hover div{
- width: 150px;
- padding: 8px 15px;
+ width: 230px;
+ padding: 8px 10px;
  visibility: visible;
- opacity: 0.6;
- font-size: 12px;
+ opacity: 0.7;
+ font-size: 14px;
+}
+
+.bold-font {
+  font-weight: bold;
+  color: $yellow;
 }
 
 

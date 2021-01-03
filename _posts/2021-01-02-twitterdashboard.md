@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A Twitter dashborad | Builing ETL pipeline
+title:  A Twitter dashboard | Builing ETL pipeline
 date:   2021-01-02 13:05:55 +0300
 image:  '/assets/img/twitter.gif'
 tags:   [in_blog]

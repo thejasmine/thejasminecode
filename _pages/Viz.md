@@ -26,11 +26,11 @@ order: 1
         Learn more on <span class="bold-font">Tableau Public</span></div>
       </a>
     </div>
-     <div class="viz_img" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/CompetitiveAnalysisforprivateroom/PrivateRoomAnalysis" target="_blank">
-        <img src="{{site.baseurl}}/assets/img/viz/seattle_analysis.png">
-        <p>Competitive Analysis for private room</p>
-        <div>Insight💡Provided insight into private room price range and recommendation for the client who wants to rent her room located in 98116.
+    <div class="viz_img" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/MakeoverMondayTwitterDashboard/TwitterDashboard" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/twitter.jpg">
+        <p>MakeoverMonday Twitter dashboard</p>
+        <div>Insight💡MakeoverModay project dashboard to show the trend of tweets of #makeovermonday. Update every Mondy.
         Learn more on <span class="bold-font">Tableau Public</span></div>
       </a>
     </div>
@@ -43,11 +43,27 @@ order: 1
       </a>
     </div>
      <div class="viz_img" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/CompetitiveAnalysisforprivateroom/PrivateRoomAnalysis" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/seattle_analysis.png">
+        <p>Competitive Analysis for private room</p>
+        <div>Insight💡Provided insight into private room price range and recommendation for the client who wants to rent her room located in 98116.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+     <div class="viz_img" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
       <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/DivergentOpinionsonTransatlanticAlliance_16075591796660/DivergentOpinionsonTransatlanticAlliance" target="_blank">
         <img src="{{site.baseurl}}/assets/img/viz/Divergent.png">
         <p>Divergent Opinions on Alliance</p>
         <div>Insight💡Overall, Americans see the relationship between the two countries is good, and increase 9% over three years.
 However, Germans consider it as bad and increase by 41%.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+    <div class="viz_img" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/Globalimportofcocoabeans_16091889395530/cocaimport" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/cocoa.png">
+        <p>Global Cocoa Beans Import</p>
+        <div>Insight💡Europe is the main destination for cocoa bean export, and import volume increased by 6.4% per year. About 74% of European cocoa imports are supplied by West Africa.
         Learn more on <span class="bold-font">Tableau Public</span></div>
       </a>
     </div>

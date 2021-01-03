@@ -4,7 +4,7 @@ title:  "Online Business Reporting with SQL"
 date:   2020-12-23 13:05:55 +0300
 image:  '/assets/img/SQL.jpg'
 tags:   testing
-blog:  https://thejasmine.medium.com/online-business-reporting-with-sql-8513514f9a74
+blog:   https://medium.com/analytics-vidhya/online-business-reporting-with-sql-8513514f9a74?source=friends_link&sk=2091946e93e0ca893ff00eb038746a20
 ---
 
 > As an analyst, it is essential to extract the data we want for a large database, and SQL is the tool for this!
@@ -38,4 +38,4 @@ By asking the above questions, I know that:
 ### Takeaways
 Using SQL to leverage customer data enables us to understand the business and customers better, leading to better performance and driving better strategy. Calculating key metrics and getting report-ready data using SQL and further analyzing data within Business Intelligence tools such as Python or Tableau makes the data analytics process more efficient.
 
-#### Access Full Project <a href="https://thejasmine.medium.com/online-business-reporting-with-sql-8513514f9a74" target="_blank" >here</a>
+#### Access Full Project <a href="https://medium.com/analytics-vidhya/online-business-reporting-with-sql-8513514f9a74?source=friends_link&sk=2091946e93e0ca893ff00eb038746a20" target="_blank" >here</a>

@@ -20,7 +20,7 @@ This project aims to build an automatic ETL pipeline that allows me easily to up
 
 ### Process
 
-#### I have share my process in <a href="https://thejasmine.medium.com/how-i-built-a-twitter-dashboard-4d5d0e53c36c" target="_blank" > Medium post.</a>
+#### I have share my process in <a href="https://medium.com/analytics-vidhya/how-i-built-a-twitter-dashboard-4d5d0e53c36c?source=friends_link&sk=4ed12175f6f17f99ebb1e34f1a3a28e8" target="_blank" > Medium post.</a>
 1. Connect Twitter API
 2. Stream data into Postgresql
 3. Sentiment Analysis

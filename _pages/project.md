@@ -23,7 +23,7 @@ order: 2
       <div class="article__content">
         <h2 class="article__title">
           {% for tag in post.tags %}
-            {% if tag == "testing" %}
+            {% if tag == "mediumpost" %}
               <a href="{{ post.blog }}" target="_blank">{{post.title}}</a>
               {% else %}
               <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
@@ -31,11 +31,11 @@ order: 2
           {% endfor %}
         </h2>
         <div class="article__meta">
-          <span class="article__date">Published <time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+          <span class="article__projecttag">{{post.skills}}</span>
         </div>
         <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
         {% for tag in post.tags %}
-          {% if tag == "testing" %}
+          {% if tag == "mediumpost" %}
             <a href="{{ post.blog }}" class="read-more" target="_blank">Learn More</a>
             {% else %}
             <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read the rest</a>

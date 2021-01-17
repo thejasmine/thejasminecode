@@ -4,6 +4,7 @@ title:  Database Modeling and Design
 date:   2020-12-19 14:50:35 +0300
 image:  '/assets/img/database.png'
 tags:   [in_blog]
+skills: Database modeling | Star Schema
 ---
 
 > Dimensional Modeling is a technique that making database simple and optimizes query performance.

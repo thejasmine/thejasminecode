@@ -3,8 +3,9 @@ layout: post
 title:  "AB testing in game — analyzing using Python"
 date:   2020-12-20 15:05:55 +0300
 image:  '/assets/img/12.png'
-tags:   testing
+tags:   mediumpost
 blog:   https://medium.com/analytics-vidhya/ab-testing-in-game-analyze-using-pty-cb82927d8422?source=friends_link&sk=9db300b73a2596d9fd3278cddc9ffb37
+skills: Python | Hypothesis Testing | Statistical Analysis
 ---
  AB testing is a popular way to experiment with changes in websites, games, etc. We can see the result in a short time and make decisions accordingly.
 I recently took several statistics thinking using Python courses and a course about designing and analyzing AB testing. As a result, I would like to apply my knowledge to the project.

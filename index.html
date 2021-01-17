@@ -22,8 +22,97 @@ layout: default
   </section>
   <!-- end author -->
 </div>
-
 <div class="container">
+  <h5><span class="underline--magical">Feature Visualizations</span></h5>
+  <div class="viz_container" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+    <div class="viz_img">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/GoogleYearInSearch2020/YearinSearch" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/01.png">
+        <p>Google Trend Viz 2020</p>
+        <div>Insight💡Based on top search data provided by google. 2020 is about covid, working from home, election and some people leave us.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+    <div class="viz_img" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/THEJOYOFPAINTING/Dashboard1" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/02.png">
+        <p>Joint probabilities analysis</p>
+        <div>Insight💡When Bob painted a tree, there is 84% chance that he would painted another tree as well.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+  </div>
+  <div class="viz_container" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+     <div class="viz_img">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/THESUCCESSOFOPERATIONFISTULASPILOTPROGRAM/Dashboard1" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/operation.png">
+        <p>Operation Fistula’s Pilot Program </p>
+        <div>Insight💡After fistula surgery, women can gain additional 12 years to live with 16 dollars spend per year.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+     <div class="viz_img">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/CityofSeattleRecyclingandWaste/CityofSeattleRecyclingandWaste" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/seattle_recycling.png">
+        <p>Seattle Recycling Project Report</p>
+        <div>Insight💡Seattle's population constantly increased year over year; however, the amount of waste decreased slightly. It means that even though there are more residents move to the city, the waste residents generated kept at relatively stable levels.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <h5><span class="underline--magical">Feature Projects</span></h5>
+  {% if site.posts.size > 0 %}
+    {% for post in site.posts limit:2 %}
+    <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+      {% if post.image %}
+      <div class="article__image-box">
+         {% for tag in post.tags %}
+            {% if tag == "testing" %}
+              <a href="{{post.blog}}" class="article__image" style="background-image: url({{site.baseurl}}{{post.image}})" target="_blank"></a>
+            {% else %}
+              <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+            {% endif %}
+          {% endfor %}
+      </div>
+      {% endif %}
+      <div class="article__content">
+        <h2 class="article__title">
+          {% for tag in post.tags %}
+            {% if tag == "mediumpost" %}
+              <a href="{{ post.blog }}" target="_blank">{{post.title}}</a>
+              {% else %}
+              <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+            {% endif %}
+          {% endfor %}
+        </h2>
+        <div class="article__meta">
+          <span class="article__projecttag">{{post.skills}}</span>
+        </div>
+        <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}</p>
+        {% for tag in post.tags %}
+          {% if tag == "mediumpost" %}
+            <a href="{{ post.blog }}" class="read-more" target="_blank">Learn More On Medium</a>
+            {% else %}
+            <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">Read the rest</a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  {% endif %}
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
   <h6>Data Visualizations</h6>
   <div class="feature_viz" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
     <div class="block1" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
@@ -54,5 +143,5 @@ layout: default
 
   </div>
 </div>
-
+ -->
 

@@ -4,6 +4,7 @@ title:  A Twitter dashboard | Building ETL pipeline
 date:   2021-01-02 13:05:55 +0300
 image:  '/assets/img/twitter.gif'
 tags:   [in_blog]
+skills: SQL | Python | Tableau | API
 ---
 
 For this project, I use Python to extract data from Twitter API and stream them into the PostgreSQL database, perform sentiment analysis and further build a dashboard using Tableau to track the weekly trends.

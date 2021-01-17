@@ -11,6 +11,23 @@ order: 1
   </div>
   <div class="viz_container" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
     <div class="viz_img">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/CityofSeattleRecyclingandWaste/CityofSeattleRecyclingandWaste" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/seattle_recycling.png">
+        <p>Seattle Recycling Project Report</p>
+        <div>Insight💡Seattle's population constantly increased year over year; however, the amount of waste decreased slightly. It means that even though there are more residents move to the city, the waste residents generated kept at relatively stable levels.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+    <div class="viz_img" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+      <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/GenderInequalityinHIVInfectioninAfrica/HIVInfection" target="_blank">
+        <img src="{{site.baseurl}}/assets/img/viz/HIV_infection.png">
+        <p>Gender Inequality in HIV Infection</p>
+        <div>Insight💡In Africa, almost 80% of adolescent girls account for new HIV infection.
+        Learn more on <span class="bold-font">Tableau Public</span></div>
+      </a>
+    </div>
+  <div class="viz_container" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+    <div class="viz_img">
       <a href="https://public.tableau.com/profile/thejasmine#!/vizhome/GoogleYearInSearch2020/YearinSearch" target="_blank">
         <img src="{{site.baseurl}}/assets/img/viz/01.png">
         <p>Google Trend Viz 2020</p>

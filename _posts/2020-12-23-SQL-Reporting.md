@@ -3,8 +3,9 @@ layout: post
 title:  "Online Business Reporting with SQL"
 date:   2020-12-23 13:05:55 +0300
 image:  '/assets/img/SQL.jpg'
-tags:   testing
+tags:   mediumpost
 blog:   https://medium.com/analytics-vidhya/online-business-reporting-with-sql-8513514f9a74?source=friends_link&sk=2091946e93e0ca893ff00eb038746a20
+skills: SQL | Python
 ---
 
 > As an analyst, it is essential to extract the data we want for a large database, and SQL is the tool for this!
